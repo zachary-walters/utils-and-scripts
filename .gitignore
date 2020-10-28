@@ -1,0 +1,7 @@
+.idea
+venv
+client_secrets.json
+creds.txt
+*.swp
+*.DS_Store
+*.pyc
