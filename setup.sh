@@ -43,5 +43,15 @@ git config --global user.email "zachary.christopher.walters@gmail.com"
 ###
 
 sudo update-alternatives --set editor /usr/bin/vim.basic
+sudo update-alternatives --set x-terminal-emulator /usr/bin/terminator
 
-ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
+
+if [ ! -f ~/.ssh/id_rsa ]; then
+  ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
+fi
+
+cp -r bin ~/bin
+
+###
+
+cp -r .config/* ~/.config/

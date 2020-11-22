@@ -1,0 +1,21 @@
+[global_config]
+  geometry_hinting = True
+  tab_position = hidden
+[keybindings]
+  copy = <Alt>c
+  paste = <Alt>v
+[profiles]
+  [[default]]
+    icon_bell = False
+    cursor_color = "#aaaaaa"
+    show_titlebar = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
