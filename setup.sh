@@ -18,6 +18,7 @@ declare -a software=(
 "xsel"
 "docker"
 "terminator"
+"gnome-tweaks"
 )
 
 software=$(printf "%s " "${software[@]}")
