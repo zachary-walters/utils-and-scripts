@@ -19,6 +19,7 @@ declare -a software=(
 "docker"
 "terminator"
 "gnome-tweaks"
+"python3-pip"
 )
 
 software=$(printf "%s " "${software[@]}")
