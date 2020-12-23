@@ -28,6 +28,7 @@ declare -a software=(
 "intellij-idea"
 "pycharm"
 "libreoffice"
+"android-messages"
 )
 
 software=$(printf "%s " "${software[@]}")
@@ -70,6 +71,9 @@ fi
 #      - color temperature: ~75%
 #    - Dock & Menu Bar
 #      - Uncheck show recent applications in dock
+#    - Keyboard
+#      - Change the repeat to fastest
+#      - Change the delay to be very quick
 #
 # - github
 #   - Add ssh keys to github

@@ -10,3 +10,4 @@ set smartindent
 set laststatus=2
 set ttyfast
 set expandtab
+set backspace=indent,eol,start
