@@ -29,6 +29,7 @@ declare -a software=(
 "pycharm"
 "libreoffice"
 "android-messages"
+"exa"
 )
 
 software=$(printf "%s " "${software[@]}")
