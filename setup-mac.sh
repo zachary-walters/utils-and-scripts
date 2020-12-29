@@ -32,6 +32,7 @@ declare -a software=(
 "exa"
 "gimp"
 "bash" # installs gnu-bash instead of bsd bash
+"wget"
 )
 
 software=$(printf "%s " "${software[@]}")
