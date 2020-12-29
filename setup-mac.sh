@@ -30,6 +30,7 @@ declare -a software=(
 "libreoffice"
 "android-messages"
 "exa"
+"gimp"
 )
 
 software=$(printf "%s " "${software[@]}")
