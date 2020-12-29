@@ -54,6 +54,9 @@ if [ ! -f ~/.ssh/id_rsa ]; then
   ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
 fi
 
+###
+ln -s /usr/local/bin/gsed /usr/local/bin/sed
+
 
 #### Checklist
 #
