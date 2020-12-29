@@ -31,6 +31,7 @@ declare -a software=(
 "android-messages"
 "exa"
 "gimp"
+"bash" # installs gnu-bash instead of bsd bash
 )
 
 software=$(printf "%s " "${software[@]}")
