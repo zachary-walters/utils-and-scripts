@@ -33,11 +33,16 @@ declare -a software=(
 "gimp"
 "bash" # installs gnu-bash instead of bsd bash
 "wget"
+"handbrake"
+"qbittorent"
+"qmk-toolbox"
 )
 
 software=$(printf "%s " "${software[@]}")
 
-#brew install $software
+brew tap homebrew/cask-drivers
+
+brew install $software
 
 ###
 
