@@ -19,6 +19,7 @@ declare -a software=(
 "docker"
 "terminator"
 "gnome-tweaks"
+"vscodium"
 "python3-pip"
 )
 
@@ -26,7 +27,6 @@ software=$(printf "%s " "${software[@]}")
 
 sudo apt-get install $software -y
 
-sudo snap install --classic code
 sudo snap install --classic pycharm-professional
 sudo snap install --classic intellij-idea-ultimate
 sudo snap install --classic spotify
