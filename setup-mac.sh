@@ -24,7 +24,7 @@ declare -a software=(
 "gawk"
 "gnutls"
 "grep"
-"visual-studio-code"
+"vscodium"
 "intellij-idea"
 "pycharm"
 "libreoffice"
