@@ -36,6 +36,7 @@ declare -a software=(
 "handbrake"
 "qbittorent"
 "qmk-toolbox"
+"x264"
 )
 
 software=$(printf "%s " "${software[@]}")
@@ -44,6 +45,7 @@ brew tap homebrew/cask-drivers
 
 brew install $software
 
+brew install --cask mkvtoolnix
 ###
 
 mkdir -p ~/code/
