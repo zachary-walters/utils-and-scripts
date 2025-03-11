@@ -4,6 +4,8 @@
 [keybindings]
   copy = <Alt>c
   paste = <Alt>v
+  split_horiz = <Primary><Shift>d
+  split_vert = <Primary>d
 [profiles]
   [[default]]
     icon_bell = False
